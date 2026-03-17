@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sietk.org</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* Header */
+
+#one{
+display:flex;
+align-items:center;
+padding:10px;
+}
+
+/* Navigation */
+
+#nav{
+background-color:purple;
+padding:10px;
+text-align:center;
+}
+
+#nav a{
+color:white;
+padding:12px;
+font-size:22px;
+text-decoration:none;
+}
+
+#nav a:hover{
+background-color:#6a006a;
+}
+
+/* Banner */
+
+#banner img{
+width:100%;
+height:400px;
+object-fit:cover;
+}
+
+/* Course Cards */
+
+#courses{
+display:flex;
+justify-content:center;
+gap:15px;        /* small space between cards */
+margin-top:40px;
+margin-bottom:40px;
+flex-wrap:wrap;  /* responsive */
+}
+
+.card{
+width:350px;
+border:2px solid #333;
+padding:15px;
+background:white;
+}
+
+.card img{
+width:100%;
+height:200px;
+}
+
+.card a{
+background:blue;
+color:white;
+padding:8px 18px;
+text-decoration:none;
+display:inline-block;
+margin-top:10px;
+}
+
+.card a:hover{
+background:#0000cc;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="one">
+<img src="https://sietk.org/images/header-image-counscode.png" height="140" width="280">
+<img src="https://sietk.org/images/sietk-logo.png" height="140" width="210">
+<img src="https://sietk.org/images/header-image-clgname.png" height="140" width="660">
+</div>
+
+<div id="nav">
+<a href="#">HOME</a>
+<a href="#">ABOUT US</a>
+<a href="#">ADMISSION</a>
+<a href="#">DEPARTMENT</a>
+<a href="#">PLACEMENTS</a>
+<a href="#">EXAM CELL</a>
+<a href="#">NAAC</a>
+<a href="#">ARIIA</a>
+<a href="#">NIRF</a>
+<a href="#">RTI</a>
+</div>
+
+<div id="banner">
+<img src="https://sietk.org/images/1.png">
+</div>
+
+<div id="courses">
+
+<div class="card">
+<img src="https://sietk.org/images/dept-imgs/ug_prog.jpg">
+
+<h2>Explore Our Diverse Undergraduate Programs</h2>
+
+<p>
+Discover a world of possibilities with over 12+ undergraduate courses at SIETK.
+</p>
+
+<a href="#">Read More</a>
+</div>
+
+
+<div class="card">
+<img src="https://sietk.org/images/dept-imgs/pg_prog.jpg">
+
+<h2>Browse Our Selection Of Postgraduate Courses</h2>
+
+<p>
+Unlock your potential with over 7 specialized postgraduate courses at SIETK.
+</p>
+
+<a href="#">Read More</a>
+</div>
+
+
+<div class="card">
+<img src="https://sietk.org/images/dept-imgs/diploma.jpg">
+
+<h2>Invest In Your Future In Our Diploma Programmes</h2>
+
+<p>
+Check our comprehensive selection of 5 diploma programs at SIETK.
+</p>
+
+<a href="#">Read More</a>
+</div>
+
+</div>
+
+</body>
+</html>
