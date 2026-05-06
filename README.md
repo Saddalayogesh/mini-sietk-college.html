@@ -104,7 +104,7 @@ This project helps in learning:
 ## 🌐 Live Demo
 
 ```bash
-https://your-username.github.io/sietk-website/
+https://saddalayogesh.github.io/mini-sietk-college.html/
 ```
 
 ---
