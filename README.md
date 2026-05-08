@@ -119,15 +119,6 @@ https://saddalayogesh.github.io/mini-sietk-college.html/
 
 ---
 
-## ⭐ Support
-
-If you like this project:
-- Star ⭐ the repository
-- Fork 🍴 the project
-- Share 📢 with others
-
----
-
 ## 📄 License
 
 This project is created for educational purposes only.
